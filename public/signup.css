@@ -1,0 +1,108 @@
+.container {
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+  justify-content: center;
+}
+.login button {
+  width: 407px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+.inputs label {
+  margin-bottom: 10px;
+  font-family: "consolas";
+}
+.inputs input {
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.inputs input:focus {
+  outline-color: yellow;
+  box-shadow: 5px 5px 0px 0px black;
+}
+
+#Welcome-text {
+  font-style: "mesmerize Me";
+  font-style: normal;
+  margin-bottom: 75px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0.145em;
+  transition: 0.8s;
+}
+
+#Welcome-text:hover {
+  transform: rotateY(180deg);
+}
+
+.fogot-lnk {
+  text-decoration: none;
+  color: black;
+  font-family: "consolas";
+  margin-bottom: 20px;
+  margin-left: 269px;
+}
+
+.next-btn {
+  background-color: gray;
+  color: white;
+  letter-spacing: 0.145em;
+  font-size: larger;
+  font-family: "consolas";
+  transition: all 0.3s ease 0s;
+}
+
+.next-btn:hover {
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px 0px black;
+  transform: translateY(-7px);
+}
+
+.login-lnk {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: "consolas";
+  transition: 0.8s;
+}
+.login-lnk b {
+  text-decoration: underline;
+}
+
+.login-lnk:hover {
+  transform: rotateY(180deg);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=signup.css.map */
